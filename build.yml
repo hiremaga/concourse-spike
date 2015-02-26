@@ -1,0 +1,7 @@
+---
+image: docker:///ubuntu#14.04
+ 
+run:
+  path: concourse-spike/scripts/test
+
+platform: linux
